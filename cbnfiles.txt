@@ -1,0 +1,32 @@
+yum install wget nano tree unzip git-all -y
+
+[ec2-user@ip-172-31-32-175 ~]$ mkdir directoryname
+
+[ec2-user@ip-172-31-32-175 ~]$ cd directoryname
+
+[ec2-user@ip-172-31-32-175 optimumpj]$ git init
+
+[ec2-user@ip-172-31-32-175 optimumpj]$ git status
+
+[ec2-user@ip-172-31-32-175 optimumpj]$ vi filname
+
+[ec2-user@ip-172-31-32-175 optimumpj]$ git status
+
+[ec2-user@ip-172-31-32-175 optimumpj]$ git add .
+
+[ec2-user@ip-172-31-32-175 optimumpj]$ git remote add alias https://github.com/Stockbridge-tech/repositoryname.git
+
+[ec2-user@ip-172-31-32-175 optimumpj]$ git remote -v
+
+opj     https://github.com/Stockbridge-tech/optimumpj.git (fetch)
+opj     https://github.com/Stockbridge-tech/optimumpj.git (push)
+
+git config --global user.name "gitusername"
+git config --global user.email "git e-mail address"
+
+
+[ec2-user@ip-172-31-32-175 optimumpj]$ git commit -m "my first commit"
+
+[ec2-user@ip-172-31-32-175 optimumpj]$ git push opj master
+
+
